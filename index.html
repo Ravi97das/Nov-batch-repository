@@ -3,28 +3,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+        #text{
+            width: 40%;
+            /* background-color: aqua; */
+        }
+        #text h1{
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #text span{
+            color: orangered;
+        }
+        #text p{
+            margin-right: 20px;
+        }
+        #text button{
+            margin-top: 20px;
+            margin-left: 15px;
+            padding: 5px 15px 5px 15px;
+            background-color: rgb(68, 68, 194);
+            border: none;
+            border-radius: 15px;
+            color: whitesmoke;
+        }
+        #image{
+            width: 40%;
+            /* background-color: brown; */
+        }
+        #image img{
+            width: 90%;
+        }
+        #layout{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- tag -->
-     <!-- element -->
-      <!-- text element -->
-       <!-- heading h1 to h6 -->
-
-       <h1>hi</h1>
-       <h2>hi</h2>
-       <h3>hi</h3>
-       <h4>hi</h4>
-       <h5>hi</h5>
-       <h6>hi</h6>
-
-
-
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae earum sequi odio fugit et deleniti labore quibusdam cupiditate dolor ullam.</p>
-       <!-- images -->
-        <img src="https://login360.in/wp-content/uploads/2024/09/New-Project-psd.webp" alt="">
-
-
-
-        <img src="login.webp" style="width: 400px;" alt="">
+    <div id="layout">
+        <div id="text">
+            <h3>5000+ TRUSTED STUDENTS</h3>
+            <h1>The Best Software Training <span>Institute in Chennai</span></h1>
+            <p>Login360 is the Best software training institute in Chennai, helping students to learn the latest tech skills through real time projects. We provide best placement support to get you into top IT jobs. Join us to kick start your career in tech industry.</p>
+            <button>Enroll Now..</button>
+        </div>
+        <div id="image">
+            <img src="https://login360.in/wp-content/uploads/2024/09/banner-augest.webp" alt="">
+        </div>
+    </div>
 </body>
 </html>
